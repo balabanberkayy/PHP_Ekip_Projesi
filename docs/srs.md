@@ -52,8 +52,7 @@ Sistemde **en az 2 rol** (`player` ve `admin`) bulunur.
 
 * **NFR-01 (Güvenlik):** Veritabanı (WampServer MySQL) bağlantıları PDO kullanılarak yapılacak, tüm form ve AJAX isteklerinde CSRF (Cross-Site Request Forgery) koruması kullanılacaktır. Parolalar asla düz metin saklanmayacaktır.
 * **NFR-02 (Eşzamanlılık ve Performans):** Canlı skor tablosu `parca.php` üzerinden 3 saniyede bir AJAX ile güncellenirken oyuncunun hamle yapmasını yavaşlatmamak (Session Locking) için, işlem anında `session_write_close()` fonksiyonu çağrılacaktır. Yanıt süresi 200ms'nin altında tutulacaktır.
-* **NFR-03 (Kullanılabilirlik):** Oyuncu arayüzü Bootstrap 5 ile mobil uyumlu (responsive) olacak ve zindan içindeki hareketler sadece klavye ok tuşları (veya WASD) ile ekstra tıklama gerektirmeden hızlıca yapılabilecektir.
-
+cd
 ---
 
 ## 5. Görsel Use Case (Kullanım Senaryosu) Diyagramı
